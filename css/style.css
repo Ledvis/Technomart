@@ -88,4 +88,52 @@ header .order {
 	background-color: #63a63e;
 }
 
+.index-top {
+	padding-top: 45px;
+	padding-bottom: 60px;
+	background-color: #f1f5f7;
+}
 
+.index-top .desc,
+.index-top-number,
+.login {
+	width: 300px;
+	box-sizing: border-box;
+}
+
+.index-top .desc {
+	float: left;
+	margin: 0;
+	padding: 0;
+	padding-left: 53px;
+	padding-right: 50px;
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: 400;
+	color: #ee3643;
+	font-style: italic;
+}
+.index-top-number {
+	float: left;
+}
+.index-top-number span:first-child {
+	display: inline-block;
+	width: 270px;
+	padding: 8px 50px;
+	box-sizing: inherit;
+	vertical-align: top;
+	font-size: 21px;
+	font-weight: 400;
+	color: #e9292a;
+	text-align: center;
+	border: 3px solid #fff;
+}
+.index-top-number span:last-child {
+	padding: 0 10px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #32425c;
+}
+.login {
+	float: right;
+}
