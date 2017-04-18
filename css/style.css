@@ -96,7 +96,7 @@ header .title h1 {
 header a {
 	display: inline-block;
 	width: 150px;
-	padding: 12px 0;
+	padding: 12.2px 0;
 	vertical-align: top;
 	box-sizing: border-box;
 	font-size: 17px;
@@ -104,10 +104,12 @@ header a {
 	text-decoration: none;
 	text-align: center;
 }
+
 .bookmarks i,
 .cart i {
 	color: #6a7180;
 }
+
 header .order {
 	background-color: #63a63e;
 }
@@ -148,9 +150,10 @@ header .order {
 }
 
 .index-top-number span:first-child {
+	position: relative;
 	display: inline-block;
 	width: 270px;
-	padding: 8px 50px;
+	padding: 8px 0;
 	box-sizing: inherit;
 	vertical-align: top;
 	font-size: 21px;
@@ -158,6 +161,15 @@ header .order {
 	color: #e9292a;
 	text-align: center;
 	border: 3px solid #fff;
+}
+
+.index-top-number i {
+	position: absolute;
+	top: 10px;
+	left: 16px;
+	width: 18px;
+	height: 19px;
+	color: #b7bfc8;
 }
 
 .index-top-number span:last-child {
@@ -179,6 +191,7 @@ header .order {
 	box-sizing: border-box;
 	vertical-align: top;
 	font-size: 21px;
+	text-align: center;
 	color: #000;
 	text-decoration: none;
 	background-color: #fff;
@@ -187,15 +200,19 @@ header .order {
 .login a:first-child {
 	width: 120px;
 	margin-right: 10px;
-	padding-left: 48px;
 }
 
 .login a:last-child {
 	width: 150px;
-	text-align: center;
 }
 
-.top-navigation {}
+.login a i {
+	color: #c5c5c5;
+}
+
+.top-navigation {
+	max-width: 100%;
+}
 
 .top-navigation ul {
 	margin: 0;
@@ -266,27 +283,67 @@ header .order {
 
 .index-categories h1 {
 	margin: 0;
+	margin-bottom: 6.5px;
 	padding: 0;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
 }
 
 .category-item {
 	float: left;
+}
+
+.category-item a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.category-item:not(.category-item-4) a {
+	position: relative;
+	display: block;
 	width: 300px;
 	padding: 24px 23px;
 	box-sizing: border-box;
 }
 
-.index-categories a {
-	color: #fff;
-	text-decoration: none;
+[class*="category-item-"]:not(.category-item-4) a::before {
+	content: "";
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	width: 78px;
+	height: 72px;
+	background: url("../img/sprite.png") no-repeat;
+}
+
+[class*="category-item-1"]:not(.category-item-4) a::before {
+	background-position: -390px -889px;
+}
+
+[class*="category-item-2"]:not(.category-item-4) a::before {
+	background-position: -216px -889px;
+}
+
+[class*="category-item-3"]:not(.category-item-4) a::before {
+	background-position: -118px -889px;
+}
+
+[class*="category-item-5"]:not(.category-item-4) a::before {
+	background-position: -311px -889px;
+}
+
+[class*="category-item-6"]:not(.category-item-4) a::before {
+	background-position: -390px -889px;
 }
 
 .category-item:not(.category-item-4) span {
 	display: inline-block;
 	width: 135px;
-	margin-top: 1px;
 	padding: 10.4px 0;
 	vertical-align: top;
+	font-size: 14px;
+	line-height: 18px;
 	text-align: center;
 	text-transform: uppercase;
 	background-color: rgba(0, 0, 0, 0.1);
@@ -301,7 +358,7 @@ header .order {
 	overflow: hidden;
 }
 
-.category-item-1::after {
+.category-item-1 a::after {
 	content: "new";
 	position: absolute;
 	top: 9px;
@@ -364,6 +421,7 @@ header .order {
 	line-height: 24px;
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: 400;
+	color: #fff;
 }
 
 .category-item-4 .category-title {
