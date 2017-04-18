@@ -238,7 +238,7 @@ header .order {
 
 .top-navigation a {
 	display: block;
-	padding: 20px 33.7px;
+	padding: 20px 33.6px;
 	padding-bottom: 15px;
 	font-size: 17px;
 	color: #fff;
@@ -580,6 +580,7 @@ header .order {
 	font-weight: 700;
 	color: #000;
 }
+
 .index-item-text span {
 	font-size: 17px;
 	text-transform: uppercase;
@@ -589,6 +590,7 @@ header .order {
 	color: #999999;
 	text-decoration: line-through;
 }
+
 .index-item-text .price-new {
 	position: relative;
 	display: inline-block;
@@ -599,9 +601,11 @@ header .order {
 	color: #fff;
 	background-color: #ee3643;
 }
+
 .index-item:last-child span {
 	margin-top: 33px;
 }
+
 .index-item:last-child::after {
 	content: "new";
 	position: absolute;
@@ -620,6 +624,8 @@ header .order {
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+
+
 }
 .index-item-text .price-new::after {
 	content: "";
@@ -627,8 +633,8 @@ header .order {
 	right: -18.8px;
 	bottom: 0;
 	width: 0;
-  height: 0;
-  border: 19.4px solid transparent;
+	height: 0;
+	border: 19.4px solid transparent;
 	border-left-color: #ee3643;
-  border-right: 0;
+	border-right: 0;
 }
