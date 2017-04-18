@@ -55,8 +55,17 @@ header .title h1 {
 }
 
 .search {
+	position: relative;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.search span {
+	position: absolute;
+	top: 12px;
+	left: 18px;
+	font-size: 17px;
+	color: #6a7180;
 }
 
 .search input[type="search"] {
@@ -95,7 +104,10 @@ header a {
 	text-decoration: none;
 	text-align: center;
 }
-
+.bookmarks i,
+.cart i {
+	color: #6a7180;
+}
 header .order {
 	background-color: #63a63e;
 }
@@ -200,10 +212,12 @@ header .order {
 .top-navigation a {
 	display: block;
 	padding: 20px 30px;
+	padding-bottom: 15px;
 	font-size: 17px;
 	color: #fff;
 	text-decoration: none;
 	background-color: #32425c;
+	border-bottom: 5px solid #293449;
 }
 
 .top-navigation .navigation-item-1 {
@@ -258,7 +272,7 @@ header .order {
 .category-item {
 	float: left;
 	width: 300px;
-	padding: 22px 23px;
+	padding: 24px 23px;
 	box-sizing: border-box;
 }
 
@@ -266,6 +280,7 @@ header .order {
 	color: #fff;
 	text-decoration: none;
 }
+
 .category-item:not(.category-item-4) span {
 	display: inline-block;
 	width: 135px;
@@ -277,10 +292,32 @@ header .order {
 	background-color: rgba(0, 0, 0, 0.1);
 	border-radius: 3px;
 }
+
 .category-item-1 {
+	position: relative;
 	background-color: #f6b22d;
 	margin-right: 20px;
 	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.category-item-1::after {
+	content: "new";
+	position: absolute;
+	top: 9px;
+	right: -25px;
+	display: inline-block;
+	width: 100px;
+	height: 28px;
+	padding: 3px 0;
+	box-sizing: border-box;
+	vertical-align: top;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+	color: #fff;
+	text-align: center;
+	background-color: #ee3643;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 .category-item-2 {
@@ -328,6 +365,7 @@ header .order {
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: 400;
 }
+
 .category-item-4 .category-title {
 	font-size: 36px;
 	line-height: 1.3;
@@ -335,6 +373,7 @@ header .order {
 	font-family: "Cuprum", "Arial", sans-serif;
 	text-transform: uppercase;
 }
+
 .category-item-4 .btn {
 	position: absolute;
 	left: 25px;
