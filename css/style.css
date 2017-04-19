@@ -77,7 +77,7 @@ header {
 
 .search span {
 	position: absolute;
-	top: 12px;
+	top: 14px;
 	left: 18px;
 	font-size: 17px;
 	color: #6a7180;
@@ -85,7 +85,7 @@ header {
 
 .search input[type="search"] {
 	width: 270px;
-	padding: 12px 45px;
+	padding: 14px 45px;
 	box-sizing: border-box;
 	font-size: 17px;
 	font-family: inherit;
@@ -111,7 +111,7 @@ header {
 header a {
 	display: inline-block;
 	width: 150px;
-	padding: 12.2px 0;
+	padding: 14px 0;
 	vertical-align: top;
 	box-sizing: border-box;
 	font-size: 17px;
@@ -127,6 +127,61 @@ header a {
 
 header .order {
 	background-color: #63a63e;
+}
+
+header .search:hover i,
+header a:hover i {
+	color: #fff;
+}
+
+header .logo:hover {
+	background-color: #ca2c37;
+}
+
+header .search input:hover,
+header a:not(.order):hover {
+	background-color: #212a3a;
+}
+
+header .order:hover {
+	background-color: #5fbb2d;
+}
+
+header a:active i {
+	color: #8b8e94;
+}
+
+header .logo:active {
+	background-color: #ba2732;
+}
+
+header a:not(.order):active {
+	background-color: #161d29;
+}
+
+header .order:active {
+	background-color: #518534;
+}
+
+header .search input:focus::-webkit-input-placeholder {
+	color: #000;
+}
+
+header .search input:focus:-ms-input-placeholder {
+	color: #000;
+}
+
+header .search input:focus::placeholder {
+	color: #000;
+}
+
+header .search input:focus {
+	color: #000;
+	background-color: #fff;
+}
+
+header input:focus  i {
+	color: #ee3643;
 }
 
 .index-top {
