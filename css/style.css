@@ -1,4 +1,5 @@
 body {
+	min-width: 1200px;
 	margin: 0;
 	padding: 0;
 	font-family: "Cuprum", "Arial", sans-serif;
@@ -625,8 +626,6 @@ header .order {
 	transform: rotate(45deg);
 }
 
-
-}
 .index-item-text .price-new::after {
 	content: "";
 	position: absolute;
@@ -711,6 +710,75 @@ header .order {
 	padding: 34px 6px 42px 10px;
 }
 .index-services {
+	position: relative;
 	padding: 60px 0;
+	padding-bottom: 100px;
 	background-color: #f2f6f8;
+}
+.index-services ul::after {
+	content: "";
+	position: absolute;
+	top: 23px;
+	left: 490px;
+	width: 467px;
+	height: 261px;
+	background: url("../img/sprite.png") no-repeat -30px 0px;
+}
+.index-services ul::before {
+	content: "";
+	position: absolute;
+	top: -20px;
+	left: 230px;
+	width: 10px;
+	height: 272px;
+	background: url("../img/sprite.png") no-repeat -429px -595px;
+}
+.index-services h2 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.index-services p {
+	margin: 0;
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "PT Sans", "Arial", sans-serif;
+}
+.index-services ul {
+	position: relative;
+	float: left;
+	margin: 0;
+	margin-right: 80px;
+	padding: 0;
+	list-style: none;
+}
+.index-services a {
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	box-sizing: border-box;
+	font-size: 21px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	background-color: #32425c;
+	border-top: 1px solid #405069;
+	border-bottom: 1px solid #293449;
+}
+.index-services .active {
+	color: #32425c;
+	background-color: #fff;
+	border: none;
+}
+.services {
+	width: 430px;
+	margin-bottom: 60px;
+}
+.delivery {
+	float: left;
+	width: 300px;
 }
