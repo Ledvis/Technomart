@@ -180,10 +180,6 @@ header .search input:focus {
 	background-color: #fff;
 }
 
-header input:focus  i {
-	color: #ee3643;
-}
-
 .index-top {
 	padding-top: 45px;
 	padding-bottom: 60px;
@@ -219,7 +215,7 @@ header input:focus  i {
 	float: left;
 }
 
-.index-top-number span:first-child {
+.index-top-number .number {
 	position: relative;
 	display: inline-block;
 	width: 270px;
@@ -228,7 +224,7 @@ header input:focus  i {
 	vertical-align: top;
 	font-size: 21px;
 	font-weight: 400;
-	color: #e9292a;
+	color: #e9292a !important;
 	text-align: center;
 	border: 3px solid #fff;
 }
@@ -280,6 +276,19 @@ header input:focus  i {
 	color: #c5c5c5;
 }
 
+.login a:hover {
+	color: #ee3643;
+}
+
+.login a:hover i {
+	color: #32425c;
+}
+
+.login a:active,
+.login a:active i {
+	color: #c5c5c5;
+}
+
 .top-navigation ul {
 	margin: 0;
 	padding: 0;
@@ -306,7 +315,9 @@ header input:focus  i {
 .top-navigation a:hover {
 	background-color: #293449;
 }
-
+.top-navigation a:active {
+	background-color: #293449;
+}
 .index-content {
 	padding-top: 59px;
 	padding-bottom: 85px;
@@ -369,7 +380,7 @@ header input:focus  i {
 }
 
 [class*="category-item-6"]:not(.category-item-4) a::before {
-	background-position: -390px -889px;
+	background-position: -30px -889px;
 }
 
 .category-item:not(.category-item-4) span {
@@ -973,7 +984,7 @@ header input:focus  i {
 
 .bottom-navigation a {
 	display: block;
-	padding: 12.2px 23.8px;
+	padding: 12.2px 23.7px;
 	font-size: 18px;
 	line-height: 24px;
 }
