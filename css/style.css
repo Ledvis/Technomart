@@ -118,6 +118,7 @@ header {
 }
 
 header a {
+	position: relative;
 	display: inline-block;
 	width: 150px;
 	padding: 14.2px 0;
@@ -131,6 +132,8 @@ header a {
 
 .bookmarks i,
 .cart i {
+	position: absolute;
+	left: 12px;
 	color: #6a7180;
 }
 
@@ -228,7 +231,8 @@ header .search input:focus {
 	position: relative;
 	display: inline-block;
 	width: 270px;
-	padding: 8px 0;
+	margin-bottom: 4px;
+	padding: 7.7px 0;
 	box-sizing: inherit;
 	vertical-align: top;
 	font-size: 21px;
@@ -260,9 +264,9 @@ header .search input:focus {
 	font-size: 0;
 }
 
-.login a {
+.login a:not(.order):not(.cabinet) {
 	display: inline-block;
-	padding: 8px 0;
+	padding: 10.7px 0;
 	box-sizing: border-box;
 	vertical-align: top;
 	font-size: 21px;
@@ -272,12 +276,12 @@ header .search input:focus {
 	background-color: #fff;
 }
 
-.login a:first-child {
+.login .login-enter {
 	width: 120px;
 	margin-right: 10px;
 }
 
-.login a:last-child {
+.login .login-registration {
 	width: 150px;
 }
 
@@ -310,7 +314,8 @@ header .search input:focus {
 	vertical-align: top;
 }
 
-.top-navigation a {
+.top-navigation a,
+.top-navigation span {
 	display: block;
 	padding: 20px 33.6px;
 	padding-bottom: 15px;
@@ -1446,4 +1451,126 @@ footer a {
 	80% {
 		transform: translateX(10px);
 	}
+}
+
+
+/*Catalog*/
+
+.inner-page .cart {
+	background-color: #ee3643;
+}
+
+.inner-page .cart:hover,
+.inner-page .cart:active {
+	background-color: #ee3643;
+}
+
+.inner-page .cart i {
+	opacity: 0.3;
+}
+
+.inner-page .login {
+	padding: 0;
+}
+
+.inner-page .cabinet-enter {
+	position: relative;
+	margin-bottom: 4px;
+	width: 300px;
+}
+
+.inner-page .login i {
+	position: absolute;
+	width: 20px;
+	height: 18px;
+}
+
+.inner-page .icon-user {
+	left: 15px;
+}
+
+.inner-page .icon-login {
+	right: 15px;
+}
+
+.inner-content {
+	padding-top: 20px;
+	padding-bottom: 60px;
+	background-color: #fff;
+}
+
+.breadcrumbs {
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+	list-style: none;
+}
+
+.breadcrumbs .icon-home {
+	display: inline-block;
+	width: 15px;
+	height: 12px;
+	vertical-align: top;
+	font-size: 16px;
+}
+
+.breadcrumbs i:not(.icon-home) {
+	position: absolute;
+	right: 15px;
+	width: 8px;
+	height: 12px;
+	font-size: 14px;
+}
+
+.breadcrumbs a,
+.breadcrumbs li {
+	font-size: 13px;
+	line-height: 18px;
+	color: #000;
+	font-family: "PT Sans", "Arial", sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.breadcrumbs li {
+	position: relative;
+	display: inline;
+	padding-right: 40px;
+}
+
+.inner-title {
+	padding: 30px;
+	background-color: #f2f6f8;
+}
+
+.inner-title h2 {
+	margin: 0;
+	font-size: 30px;
+	color: #32425c;
+	text-transform: uppercase;
+}
+
+.login .order,
+.login .cabinet {
+	font-size: 16px;
+	line-height: 18px;
+	color: #32425c;
+	text-decoration: underline;
+}
+
+.login .order {
+	position: relative;
+	margin-right: 32px;
+	margin-left: 18px;
+}
+
+.login .order::after {
+	content: "";
+	position: absolute;
+	top: 8px;
+	right: -19px;
+	width: 5px;
+	height: 5px;
+	background-color: #32425c;
+	border-radius: 50%;
 }
