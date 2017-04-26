@@ -1510,6 +1510,7 @@ footer a {
 
 /*Catalog*/
 
+
 .inner-page .cart {
 	background-color: #ee3643;
 }
@@ -1847,7 +1848,8 @@ label[for="radio-2"] {
 	margin-left: 240px;
 }
 
-.catalog-items-bar {
+
+.inner-page .catalog-items-bar {
 	position: relative;
 	margin-bottom: 20px;
 	padding: 12px 19px;
@@ -1952,14 +1954,14 @@ span.paginator-active {
 	background-color: #f2f6f8;
 }
 
-.title-desc h2 {
+.inner-page .title-desc h2 {
 	margin: 0;
 	margin-bottom: 30px;
 	font-size: 30px;
 	text-transform: uppercase;
 }
 
-.title-desc p {
+.inner-page .title-desc p {
 	margin: 0;
 	font-size: 13px;
 	line-height: 24px;
