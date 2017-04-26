@@ -27,7 +27,7 @@ img {
 .btn {
 	display: block;
 	width: 195px;
-	padding: 10px 0;
+	padding: 10.3px 0;
 	font-size: 14px;
 	line-height: 18px;
 	color: #fff;
@@ -55,7 +55,7 @@ header {
 	position: relative;
 	display: inline-block;
 	width: 220px;
-	padding: 10px 0;
+	padding: 7.5px 0;
 	vertical-align: top;
 	text-align: center;
 	background-color: #ee3643;
@@ -86,7 +86,7 @@ header {
 
 .search span {
 	position: absolute;
-	top: 14px;
+	top: 11px;
 	left: 18px;
 	font-size: 17px;
 	color: #6a7180;
@@ -94,7 +94,7 @@ header {
 
 .search input[type="search"] {
 	width: 270px;
-	padding: 14px 45px;
+	padding: 11.5px 45px;
 	box-sizing: border-box;
 	font-size: 17px;
 	font-family: inherit;
@@ -121,7 +121,7 @@ header a {
 	position: relative;
 	display: inline-block;
 	width: 150px;
-	padding: 14.2px 0;
+	padding: 11.5px 0;
 	vertical-align: top;
 	box-sizing: border-box;
 	font-size: 17px;
@@ -193,8 +193,8 @@ header .search input:focus {
 }
 
 .index-top {
-	padding-top: 45px;
-	padding-bottom: 60px;
+	padding-top: 40px;
+	padding-bottom: 55px;
 	background-color: #f1f5f7;
 }
 
@@ -217,7 +217,7 @@ header .search input:focus {
 	padding-left: 53px;
 	padding-right: 50px;
 	font-size: 16px;
-	line-height: 23px;
+	line-height: 20px;
 	font-weight: 400;
 	color: #ee3643;
 	font-style: italic;
@@ -231,13 +231,12 @@ header .search input:focus {
 	position: relative;
 	display: inline-block;
 	width: 270px;
-	margin-bottom: 4px;
 	padding: 7.7px 0;
 	box-sizing: inherit;
 	vertical-align: top;
 	font-size: 21px;
 	font-weight: 400;
-	color: #e9292a !important;
+	color: #e9292a;
 	text-align: center;
 	border: 3px solid #fff;
 }
@@ -254,7 +253,6 @@ header .search input:focus {
 .index-top-number span:last-child {
 	padding: 0 10px;
 	font-size: 14px;
-	line-height: 24px;
 	color: #32425c;
 }
 
@@ -317,7 +315,7 @@ header .search input:focus {
 .top-navigation a,
 .top-navigation span {
 	display: block;
-	padding: 20px 33.6px;
+	padding: 22px 33.6px;
 	padding-bottom: 15px;
 	font-size: 17px;
 	color: #fff;
@@ -599,7 +597,7 @@ header .search input:focus {
 
 .index-popular {
 	margin-bottom: 20px;
-	padding: 25px 24px;
+	padding: 26px 24px;
 	background-color: #f7f3ec;
 }
 
@@ -624,7 +622,7 @@ header .search input:focus {
 	position: relative;
 	float: left;
 	width: 220px;
-	padding-top: 200px;
+	padding-top: 170px;
 	border: 1px solid #e5e5e5;
 	box-sizing: border-box;
 	overflow: hidden;
@@ -775,7 +773,7 @@ header .search input:focus {
 	display: inline-block;
 	width: 103px;
 	margin-top: 14px;
-	padding: 9.55px 0;
+	padding: 9.7px 0;
 	vertical-align: top;
 	color: #fff;
 	background-color: #ee3643;
@@ -910,8 +908,8 @@ header .search input:focus {
 
 .index-services {
 	position: relative;
-	padding: 60px 0;
-	padding-bottom: 100px;
+	padding: 56.5px 0;
+	padding-bottom: 91px;
 	background-color: #f2f6f8;
 }
 
@@ -943,7 +941,7 @@ header .search input:focus {
 .index-services ul span {
 	display: block;
 	width: 240px;
-	padding: 20px 0;
+	padding: 14.5px 0;
 	box-sizing: border-box;
 	font-size: 21px;
 	line-height: 30px;
@@ -961,6 +959,7 @@ header .search input:focus {
 	color: #32425c;
 	background-color: #fff;
 	border: none;
+	border-top: 1px solid transparent;
 }
 
 .index-services ul {
@@ -970,7 +969,7 @@ header .search input:focus {
 .index-services ul::before {
 	content: "";
 	position: absolute;
-	top: -20px;
+	top: -35px;
 	right: -1px;
 	width: 10px;
 	height: 272px;
@@ -1043,13 +1042,13 @@ header .search input:focus {
 }
 
 .index-info {
-	padding-top: 70px;
+	padding-top: 80px;
 	padding-bottom: 85px;
 }
 
 .index-info h2 {
 	margin: 0;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 	padding: 0;
 	font-size: 30px;
 	text-transform: uppercase;
@@ -1057,7 +1056,7 @@ header .search input:focus {
 
 .index-info p {
 	margin: 0;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 	padding: 0;
 	font-size: 13px;
 	font-family: "PT Sans", "Arial", sans-serif;
@@ -1065,7 +1064,7 @@ header .search input:focus {
 
 .index-info ul {
 	margin: 0;
-	margin-bottom: 25px;
+	margin-bottom: 31px;
 	padding: 0;
 	list-style: none;
 }
@@ -1086,7 +1085,7 @@ header .search input:focus {
 }
 
 .index-info li:not(:last-child) {
-	margin-bottom: 10px;
+	margin-bottom: 26px;
 }
 
 .info-left {
@@ -1104,18 +1103,19 @@ header .search input:focus {
 }
 
 .map {
-	margin-bottom: 20px;
+	margin-bottom: 37px;
 	cursor: pointer;
 }
 
 .index-bottom {
 	color: #f1f5f7;
 	background-color: #32425c;
-	padding-bottom: 40px;
+	padding-bottom: 56px;
 }
 
 .index-bottom .logo {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
+	padding: 18px 0px;
 }
 
 .index-bottom a {
@@ -1171,8 +1171,8 @@ header .search input:focus {
 }
 
 footer {
-	padding-top: 39px;
-	padding-bottom: 31px;
+	padding-top: 35px;
+	padding-bottom: 29px;
 	font-size: 16px;
 	line-height: 18px;
 	color: #fff;
