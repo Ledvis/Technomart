@@ -1578,15 +1578,15 @@ footer a {
 	background-color: #fff;
 }
 
-.inner-content .breadcrumbs {
+.breadcrumbs {
 	margin: 0;
 	margin-bottom: 20px;
 	padding: 0;
 	list-style: none;
 }
 
-.inner-content .breadcrumbs a,
-.inner-content .breadcrumbs li {
+.breadcrumbs a,
+.breadcrumbs li {
 	font-size: 13px;
 	line-height: 18px;
 	color: #000;
@@ -1595,7 +1595,7 @@ footer a {
 	text-decoration: none;
 }
 
-.inner-content .breadcrumbs .icon-home {
+.breadcrumbs .icon-home {
 	display: inline-block;
 	width: 15px;
 	height: 12px;
@@ -1604,11 +1604,11 @@ footer a {
 	color: #c1c6ce;
 }
 
-.inner-content .breadcrumbs .icon-home:hover {
+.breadcrumbs .icon-home:hover {
 	color: #000;
 }
 
-.inner-content .breadcrumbs i:not(.icon-home) {
+.breadcrumbs i:not(.icon-home) {
 	position: absolute;
 	right: 15px;
 	width: 8px;
@@ -1617,23 +1617,23 @@ footer a {
 	font-size: 14px;
 }
 
-.inner-content .breadcrumbs a:hover {
+.breadcrumbs a:hover {
 	text-decoration: underline;
 }
 
-.inner-content .breadcrumbs li {
+.breadcrumbs li {
 	position: relative;
 	display: inline;
 	padding-right: 40px;
 }
 
-.inner-content .inner-title {
+.inner-title {
 	margin-bottom: 20px;
 	padding: 30px;
 	background-color: #f2f6f8;
 }
 
-.inner-content .inner-title h2 {
+.inner-title h2 {
 	margin: 0;
 	font-size: 30px;
 	color: #32425c;
@@ -1953,14 +1953,14 @@ span.paginator-active {
 	background-color: #f2f6f8;
 }
 
-.inner-page .title-desc h2 {
+.title-desc h2 {
 	margin: 0;
 	margin-bottom: 30px;
 	font-size: 30px;
 	text-transform: uppercase;
 }
 
-.inner-page .title-desc p {
+.title-desc p {
 	margin: 0;
 	font-size: 13px;
 	line-height: 24px;
