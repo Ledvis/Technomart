@@ -1672,7 +1672,7 @@ footer a {
 
 .filter,
 .range,
-input[type="text"] {
+input[type="number"] {
 	background-color: #f7f3ec;
 	border-radius: 3px;
 }
@@ -1731,9 +1731,10 @@ input[type="text"] {
 	border-radius: 50%;
 }
 
-.form-sidebar input[type="text"] {
-	padding: 10px 0;
+.form-sidebar input[type="number"] {
+	padding: 10px 8px;
 	width: 95px;
+	box-sizing: border-box;
 	font-size: 17px;
 	text-align: center;
 	text-transform: uppercase;
