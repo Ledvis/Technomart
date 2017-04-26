@@ -1510,7 +1510,6 @@ footer a {
 
 /*Catalog*/
 
-
 .inner-page .cart {
 	background-color: #ee3643;
 }
@@ -1586,13 +1585,23 @@ footer a {
 	list-style: none;
 }
 
+.breadcrumbs a,
+.breadcrumbs li {
+	font-size: 13px;
+	line-height: 18px;
+	color: #000;
+	font-family: "PT Sans", "Arial", sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
 .breadcrumbs .icon-home {
 	display: inline-block;
 	width: 15px;
 	height: 12px;
-	color: #c1c6ce;
 	vertical-align: top;
 	font-size: 16px;
+	color: #c1c6ce;
 }
 
 .breadcrumbs .icon-home:hover {
@@ -1606,16 +1615,6 @@ footer a {
 	height: 12px;
 	color: #c1c6ce;
 	font-size: 14px;
-}
-
-.breadcrumbs a,
-.breadcrumbs li {
-	font-size: 13px;
-	line-height: 18px;
-	color: #000;
-	font-family: "PT Sans", "Arial", sans-serif;
-	text-transform: uppercase;
-	text-decoration: none;
 }
 
 .breadcrumbs a:hover {
@@ -1848,8 +1847,7 @@ label[for="radio-2"] {
 	margin-left: 240px;
 }
 
-
-.inner-page .catalog-items-bar {
+.catalog-items-bar {
 	position: relative;
 	margin-bottom: 20px;
 	padding: 12px 19px;
@@ -1862,9 +1860,11 @@ label[for="radio-2"] {
 
 .catalog-items-bar span:first-of-type {
 	margin-right: 140px;
+	font-size: inherit;
 }
 
 .catalog-items-bar a {
+	font-size: inherit;
 	text-decoration: none;
 	color: #acaaa5;
 	border-bottom: 1px dotted #ee3643;
@@ -1954,14 +1954,14 @@ span.paginator-active {
 	background-color: #f2f6f8;
 }
 
-.inner-page .title-desc h2 {
+.title-desc h2 {
 	margin: 0;
 	margin-bottom: 30px;
 	font-size: 30px;
 	text-transform: uppercase;
 }
 
-.inner-page .title-desc p {
+.title-desc p {
 	margin: 0;
 	font-size: 13px;
 	line-height: 24px;
