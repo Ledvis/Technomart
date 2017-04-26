@@ -1541,7 +1541,6 @@ footer a {
 
 .inner-page .cabinet-enter {
 	position: relative;
-	margin-bottom: 4px;
 	width: 300px;
 }
 
@@ -1549,6 +1548,20 @@ footer a {
 	position: absolute;
 	width: 20px;
 	height: 18px;
+}
+
+.login .order,
+.login .cabinet {
+	font-size: 16px;
+	line-height: 16px;
+	color: #32425c;
+	text-decoration: underline;
+}
+
+.login .order {
+	position: relative;
+	margin-right: 32px;
+	margin-left: 18px;
 }
 
 .inner-page .icon-user {
@@ -1569,7 +1582,6 @@ footer a {
 	margin: 0;
 	margin-bottom: 20px;
 	padding: 0;
-	font-size: 13px;
 	list-style: none;
 }
 
@@ -1597,6 +1609,7 @@ footer a {
 
 .breadcrumbs a,
 .breadcrumbs li {
+	font-size: 13px;
 	line-height: 18px;
 	color: #000;
 	font-family: "PT Sans", "Arial", sans-serif;
@@ -1625,20 +1638,6 @@ footer a {
 	font-size: 30px;
 	color: #32425c;
 	text-transform: uppercase;
-}
-
-.login .order,
-.login .cabinet {
-	font-size: 16px;
-	line-height: 18px;
-	color: #32425c;
-	text-decoration: underline;
-}
-
-.login .order {
-	position: relative;
-	margin-right: 32px;
-	margin-left: 18px;
 }
 
 .inner-page .login a:active {
@@ -1759,10 +1758,12 @@ h3.sidebar-title::before {
 	height: 1px;
 	background-color: #e5e5e5;
 }
+
 .form-sidebar label {
 	font-size: 15px;
 	line-height: 20px;
 }
+
 .checkbox,
 .radio {
 	position: relative;
@@ -1850,6 +1851,7 @@ label[for="radio-2"] {
 	position: relative;
 	margin-bottom: 20px;
 	padding: 12px 19px;
+	font-size: 13px;
 	text-transform: uppercase;
 	color: #000;
 	background-color: #f7f3ec;
