@@ -1578,15 +1578,15 @@ footer a {
 	background-color: #fff;
 }
 
-.breadcrumbs {
+.inner-content .breadcrumbs {
 	margin: 0;
 	margin-bottom: 20px;
 	padding: 0;
 	list-style: none;
 }
 
-.breadcrumbs a,
-.breadcrumbs li {
+.inner-content .breadcrumbs a,
+.inner-content .breadcrumbs li {
 	font-size: 13px;
 	line-height: 18px;
 	color: #000;
@@ -1595,7 +1595,7 @@ footer a {
 	text-decoration: none;
 }
 
-.breadcrumbs .icon-home {
+.inner-content .breadcrumbs .icon-home {
 	display: inline-block;
 	width: 15px;
 	height: 12px;
@@ -1604,11 +1604,11 @@ footer a {
 	color: #c1c6ce;
 }
 
-.breadcrumbs .icon-home:hover {
+.inner-content .breadcrumbs .icon-home:hover {
 	color: #000;
 }
 
-.breadcrumbs i:not(.icon-home) {
+.inner-content .breadcrumbs i:not(.icon-home) {
 	position: absolute;
 	right: 15px;
 	width: 8px;
@@ -1617,23 +1617,23 @@ footer a {
 	font-size: 14px;
 }
 
-.breadcrumbs a:hover {
+.inner-content .breadcrumbs a:hover {
 	text-decoration: underline;
 }
 
-.breadcrumbs li {
+.inner-content .breadcrumbs li {
 	position: relative;
 	display: inline;
 	padding-right: 40px;
 }
 
-.inner-title {
+.inner-content .inner-title {
 	margin-bottom: 20px;
 	padding: 30px;
 	background-color: #f2f6f8;
 }
 
-.inner-title h2 {
+.inner-content .inner-title h2 {
 	margin: 0;
 	font-size: 30px;
 	color: #32425c;
@@ -1848,7 +1848,7 @@ label[for="radio-2"] {
 	margin-left: 240px;
 }
 
-.catalog-items-bar {
+.inner-catalog-items .catalog-items-bar {
 	position: relative;
 	margin-bottom: 20px;
 	padding: 12px 19px;
@@ -1861,11 +1861,9 @@ label[for="radio-2"] {
 
 .catalog-items-bar span:first-of-type {
 	margin-right: 140px;
-	font-size: inherit;
 }
 
 .catalog-items-bar a {
-	font-size: inherit;
 	text-decoration: none;
 	color: #acaaa5;
 	border-bottom: 1px dotted #ee3643;
@@ -1955,14 +1953,14 @@ span.paginator-active {
 	background-color: #f2f6f8;
 }
 
-.title-desc h2 {
+.inner-page .title-desc h2 {
 	margin: 0;
 	margin-bottom: 30px;
 	font-size: 30px;
 	text-transform: uppercase;
 }
 
-.title-desc p {
+.inner-page .title-desc p {
 	margin: 0;
 	font-size: 13px;
 	line-height: 24px;
