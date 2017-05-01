@@ -3,7 +3,8 @@ var popup = document.querySelector(".modal-content");
 var overlay = document.querySelector(".modal-overlay")
 var close = popup.querySelector(".close");
 var form = popup.querySelector("form");
-var name = popup.querySelector("#name");
+var name = form.querySelector("#name");
+var email = form.querySelector("#email")
 var storage = localStorage.getItem("name");
 
 feedback.addEventListener("click", function (event) {
@@ -30,7 +31,7 @@ form.addEventListener("submit", function (event) {
 		event.preventDefault();
 		popup.classList.add("modal-content-error");
 	} else {
-		localStorage.setItem("name", "name.value");
+		localStorage.setItem("name", name.value);
 	}
 });
 
