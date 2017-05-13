@@ -59,6 +59,7 @@ header {
 	padding: 7.3px 0;
 	vertical-align: top;
 	text-align: center;
+	text-decoration: none;
 	background-color: #ee3643;
 }
 
@@ -118,7 +119,7 @@ header {
 	color: #fff;
 }
 
-header a {
+header a:not(.logo) {
 	position: relative;
 	display: inline-block;
 	width: 150px;
@@ -143,7 +144,7 @@ header .order {
 }
 
 header .search:hover i,
-header a:hover i {
+header a:hover: i {
 	color: #fff;
 }
 
@@ -152,7 +153,7 @@ header a:hover i {
 }
 
 header .search input:hover,
-header a:not(.order):hover {
+header a:not(.order):not(.logo):hover {
 	background-color: #212a3a;
 }
 
@@ -168,7 +169,7 @@ header a:active i {
 	background-color: #ba2732;
 }
 
-header a:not(.order):active {
+header a:not(.order):not(.logo):active {
 	background-color: #161d29;
 }
 
@@ -1104,6 +1105,7 @@ header .search input:focus {
 }
 
 .map {
+	display: block;
 	margin-bottom: 37px;
 	cursor: pointer;
 }
